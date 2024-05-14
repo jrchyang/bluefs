@@ -1,6 +1,6 @@
 #pragma once
 
-#include "bluefs/bluefs_namespace.h"
+#include "bluefs/namespace.h"
 
 namespace BLUEFS_NAMESPACE {
 
