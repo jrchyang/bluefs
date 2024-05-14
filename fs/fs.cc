@@ -2,10 +2,10 @@
 
 namespace BLUEFS_NAMESPACE {
 
-BlueFS::BlueFS() {
+FS::FS() {
 }
 
-BlueFS::~BlueFS() {
+FS::~FS() {
 }
 
 }

@@ -4,7 +4,7 @@
 
 namespace BLUEFS_NAMESPACE {
 
-class BlueFS {
+class FS {
 public:
   // 文件系统支持不同种类的块设备
   static constexpr unsigned MAX_BDEV = 5;
@@ -20,8 +20,8 @@ public:
     WRITER_SST,     // RocksDB 的 sst 文件
   };
 
-  BlueFS();
-  ~BlueFS();
+  FS();
+  ~FS();
 };
 
 }
