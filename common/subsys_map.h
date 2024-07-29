@@ -10,6 +10,7 @@
 #include "subsys_types.h"
 
 namespace BLUEFS_NAMESPACE {
+namespace logging {
 
 class SubsystemMap {
   // Access to the current gathering levels must be *FAST* as they are
@@ -101,4 +102,5 @@ public:
   }
 };
 
+}
 }
